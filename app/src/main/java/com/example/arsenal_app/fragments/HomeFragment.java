@@ -64,7 +64,8 @@ public class HomeFragment extends Fragment {
         myTeamBadgeView = view.findViewById(R.id.logo);
         // Load the data into the page.
 
-        competitionView.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.skeleton));
+        //todo: Skeleton loaders
+        //competitionView.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.skeleton));
 
         DataRepository.getInstance().loadAllFootballGames(
                 "https://general-personal-app.onrender.com/api/football/"+DataRepository.getInstance().getSettingsManager().getTeam(),

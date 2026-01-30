@@ -3,6 +3,8 @@ package com.example.arsenal_app.database;
 import com.example.arsenal_app.Activities.MainActivity;
 import com.example.arsenal_app.models.Game;
 
+import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -122,8 +124,43 @@ public class DataRepository {
         api.fetchData(url, jsonArrayKey, clazz, new DataStatus<T>() {
             @Override
             public void onDataLoaded(ArrayList<T> dataList) {
+                // Remove any games with time before it
+                ArrayList<Game> newDataList = new ArrayList<>();
+                long milliseconds = 0;
+                System.out.println("HERE 1");
+                for (Game game : (ArrayList<Game>) dataList){
+                    System.out.println("HERE");
+                    String[] dateParts = game.getDate().split("-");
+                    int year = Integer.parseInt(dateParts[0]);
+                    int month = Integer.parseInt(dateParts[1]);
+                    int day = Integer.parseInt(dateParts[2]);
+
+                    String[] timeParts = game.getTime().split(":");
+                    int hours = Integer.parseInt(timeParts[0]);
+                    int minutes = Integer.parseInt(timeParts[1]);
+                    int seconds;
+                    if (timeParts.length > 2) {
+                        seconds = Integer.parseInt(timeParts[2]);
+                    } else {
+                        seconds = 0;
+                    }
+                    LocalDateTime pastDateTime;
+                    LocalDateTime now;
+                    milliseconds = -1;
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                        pastDateTime = LocalDateTime.of(year, month, day, hours, minutes, seconds);
+                        now = LocalDateTime.now();
+                        milliseconds = Duration.between(now, pastDateTime).getSeconds() * 1000;
+                    }
+                    System.out.println(game + " : " + milliseconds);
+                    if (milliseconds > 0){
+                        newDataList.add(game);
+                        System.out.println("Game added");
+                    }
+                }
+                dataList = (ArrayList<T>) newDataList;
                 // Cache the data
-                dbHelper.setGames((ArrayList<Game>) dataList);
+                dbHelper.setGames(newDataList);
 
                 // Let the caller process the data
                 functionSetter.accept(dataList);

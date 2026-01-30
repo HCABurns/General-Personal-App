@@ -30,7 +30,7 @@
             <!-- Race views -->
             <ImageView
                 android:id="@+id/track_map_holder"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <TextView

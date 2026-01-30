@@ -59,15 +59,11 @@ def initialize_firebase():
         initialize_app(cred, {'databaseURL': os.environ["DB_URL"]})
 
         print("Firebase initialized. Successfully retrieved data.")
-        # Get the information from the database and return.
-        races = get_data("f1")
-        football_games = get_data("games")
-        epic_games = get_data("epic_games")
-        logos = get_data("logos")
-        return races, football_games, epic_games, logos
+        # Get the information from the database and return
+        return True
     except Exception as e:
         print(f"Error occurred during Firebase initialization: {e}")
-        return [],[],[],[]
+        return False
 
 
 def verify_firebase_token():
@@ -126,6 +122,7 @@ def get_races():
     uid, error_response, status = verify_firebase_token()
     if not uid:
         return error_response, status
+    races = get_data("f1")
     return {"races":races,"count":len(races)}, 200
 
 
@@ -145,6 +142,10 @@ def get_country_races(country_name):
             - dict: JSON response with race data or error message.
             - int: HTTP status code.
     """
+    uid, error_response, status = verify_firebase_token()
+    if not uid:
+        return error_response, status
+    races = get_data("f1")
     results = []
     for race_info in races:
         if country_name.lower() == race_info.get('country', '').lower():
@@ -173,6 +174,8 @@ def get_team_games(team):
     uid, error_response, status = verify_firebase_token()
     if not uid:
         return error_response, status
+    football_games = get_data("games")
+    logos = get_data("logos")
     if team in football_games:
         return {"football":football_games[team],"count":len(football_games[team]), "team_base64":logos[team]}, 200
     else:
@@ -195,6 +198,7 @@ def get_games():
     uid, error_response, status = verify_firebase_token()
     if not uid:
         return error_response, status
+    football_games = get_data("games")
     return {"football":football_games,"count":len(football_games)}, 200
 
 
@@ -215,6 +219,7 @@ def get_epic_games():
     uid, error_response, status = verify_firebase_token()
     if not uid:
         return error_response, status
+    epic_games = get_data("epic_games")
     return {"epic_games":epic_games,"count":len(epic_games)}, 200
 
 
@@ -233,6 +238,6 @@ def page_not_found(e):
     return jsonify({'error': 'Unknown Request'}), 404
 
 # Get data from the database.
-races, football_games, epic_games, logos = initialize_firebase()
+initialize_firebase()
 if __name__ == "__main__":
     app.run()

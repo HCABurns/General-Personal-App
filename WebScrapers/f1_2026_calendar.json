@@ -1,0 +1,482 @@
+[
+  {
+    "circuit": "Albert Park Circuit",
+    "country": "Australia",
+    "date": "07/03/26",
+    "race": "Australian Grand Prix - Qualifying",
+    "time": "05:00",
+    "track": ""
+  },
+  {
+    "circuit": "Albert Park Circuit",
+    "country": "Australia",
+    "date": "08/03/26",
+    "race": "Australian Grand Prix",
+    "time": "04:00",
+    "track": ""
+  },
+  {
+    "circuit": "Shanghai International Circuit",
+    "country": "China",
+    "date": "13/03/26",
+    "race": "Chinese Grand Prix - Sprint Qualifying",
+    "time": "07:30",
+    "track": ""
+  },
+  {
+    "circuit": "Shanghai International Circuit",
+    "country": "China",
+    "date": "14/03/26",
+    "race": "Chinese Grand Prix - Sprint",
+    "time": "03:00",
+    "track": ""
+  },
+  {
+    "circuit": "Shanghai International Circuit",
+    "country": "China",
+    "date": "14/03/26",
+    "race": "Chinese Grand Prix - Qualifying",
+    "time": "07:00",
+    "track": ""
+  },
+  {
+    "circuit": "Shanghai International Circuit",
+    "country": "China",
+    "date": "15/03/26",
+    "race": "Chinese Grand Prix",
+    "time": "07:00",
+    "track": ""
+  },
+  {
+    "circuit": "Suzuka Course",
+    "country": "Japan",
+    "date": "28/03/26",
+    "race": "Japanese Grand Prix - Qualifying",
+    "time": "06:00",
+    "track": ""
+  },
+  {
+    "circuit": "Suzuka Course",
+    "country": "Japan",
+    "date": "29/03/26",
+    "race": "Japanese Grand Prix",
+    "time": "05:00",
+    "track": ""
+  },
+  {
+    "circuit": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "date": "11/04/26",
+    "race": "Bahrain Grand Prix - Qualifying",
+    "time": "16:00",
+    "track": ""
+  },
+  {
+    "circuit": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "date": "12/04/26",
+    "race": "Bahrain Grand Prix",
+    "time": "15:00",
+    "track": ""
+  },
+  {
+    "circuit": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "date": "18/04/26",
+    "race": "Saudi Arabian Grand Prix - Qualifying",
+    "time": "17:00",
+    "track": ""
+  },
+  {
+    "circuit": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "date": "19/04/26",
+    "race": "Saudi Arabian Grand Prix",
+    "time": "17:00",
+    "track": ""
+  },
+  {
+    "circuit": "Miami International Autodrome",
+    "country": "USA",
+    "date": "01/05/26",
+    "race": "Miami Grand Prix - Sprint Qualifying",
+    "time": "20:30",
+    "track": ""
+  },
+  {
+    "circuit": "Miami International Autodrome",
+    "country": "USA",
+    "date": "02/05/26",
+    "race": "Miami Grand Prix - Sprint",
+    "time": "16:00",
+    "track": ""
+  },
+  {
+    "circuit": "Miami International Autodrome",
+    "country": "USA",
+    "date": "02/05/26",
+    "race": "Miami Grand Prix - Qualifying",
+    "time": "20:00",
+    "track": ""
+  },
+  {
+    "circuit": "Miami International Autodrome",
+    "country": "USA",
+    "date": "03/05/26",
+    "race": "Miami Grand Prix",
+    "time": "20:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "date": "22/05/26",
+    "race": "Canadian Grand Prix - Sprint Qualifying",
+    "time": "20:30",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "date": "23/05/26",
+    "race": "Canadian Grand Prix - Sprint",
+    "time": "16:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "date": "23/05/26",
+    "race": "Canadian Grand Prix - Qualifying",
+    "time": "20:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "date": "24/05/26",
+    "race": "Canadian Grand Prix",
+    "time": "18:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit de Monaco",
+    "country": "Monaco",
+    "date": "06/06/26",
+    "race": "Monaco Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit de Monaco",
+    "country": "Monaco",
+    "date": "07/06/26",
+    "race": "Monaco Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "date": "13/06/26",
+    "race": "Barcelona-Catalunya Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "date": "14/06/26",
+    "race": "Barcelona-Catalunya Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Red Bull Ring",
+    "country": "Austria",
+    "date": "27/06/26",
+    "race": "Austrian Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Red Bull Ring",
+    "country": "Austria",
+    "date": "28/06/26",
+    "race": "Austrian Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Silverstone Circuit",
+    "country": "UK",
+    "date": "03/07/26",
+    "race": "British Grand Prix - Sprint Qualifying",
+    "time": "15:30",
+    "track": ""
+  },
+  {
+    "circuit": "Silverstone Circuit",
+    "country": "UK",
+    "date": "04/07/26",
+    "race": "British Grand Prix - Sprint",
+    "time": "11:00",
+    "track": ""
+  },
+  {
+    "circuit": "Silverstone Circuit",
+    "country": "UK",
+    "date": "04/07/26",
+    "race": "British Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Silverstone Circuit",
+    "country": "UK",
+    "date": "05/07/26",
+    "race": "British Grand Prix",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit de Spa-Francorchamps",
+    "country": "Belgium",
+    "date": "18/07/26",
+    "race": "Belgian Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit de Spa-Francorchamps",
+    "country": "Belgium",
+    "date": "19/07/26",
+    "race": "Belgian Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Hungaroring",
+    "country": "Hungary",
+    "date": "25/07/26",
+    "race": "Hungarian Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Hungaroring",
+    "country": "Hungary",
+    "date": "26/07/26",
+    "race": "Hungarian Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "date": "21/08/26",
+    "race": "Dutch Grand Prix - Sprint Qualifying",
+    "time": "14:30",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "date": "22/08/26",
+    "race": "Dutch Grand Prix - Sprint",
+    "time": "10:30",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "date": "22/08/26",
+    "race": "Dutch Grand Prix - Qualifying",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "date": "23/08/26",
+    "race": "Dutch Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Autodromo Nazionale Monza",
+    "country": "Italy",
+    "date": "05/09/26",
+    "race": "Italian Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Autodromo Nazionale Monza",
+    "country": "Italy",
+    "date": "06/09/26",
+    "race": "Italian Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Madrid Street Circuit",
+    "country": "Spain",
+    "date": "12/09/26",
+    "race": "Spanish Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Madrid Street Circuit",
+    "country": "Spain",
+    "date": "13/09/26",
+    "race": "Spanish Grand Prix",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Baku City Circuit",
+    "country": "Azerbaijan",
+    "date": "26/09/26",
+    "race": "Azerbaijan Grand Prix - Qualifying",
+    "time": "12:00",
+    "track": ""
+  },
+  {
+    "circuit": "Baku City Circuit",
+    "country": "Azerbaijan",
+    "date": "27/09/26",
+    "race": "Azerbaijan Grand Prix",
+    "time": "11:00",
+    "track": ""
+  },
+  {
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "date": "09/10/26",
+    "race": "Singapore Grand Prix - Sprint Qualifying",
+    "time": "13:00",
+    "track": ""
+  },
+  {
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "date": "10/10/26",
+    "race": "Singapore Grand Prix - Sprint",
+    "time": "12:00",
+    "track": ""
+  },
+  {
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "date": "10/10/26",
+    "race": "Singapore Grand Prix - Qualifying",
+    "time": "15:00",
+    "track": ""
+  },
+  {
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "date": "11/10/26",
+    "race": "Singapore Grand Prix",
+    "time": "12:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit of the Americas",
+    "country": "USA",
+    "date": "24/10/26",
+    "race": "United States Grand Prix - Qualifying",
+    "time": "22:00",
+    "track": ""
+  },
+  {
+    "circuit": "Circuit of the Americas",
+    "country": "USA",
+    "date": "25/10/26",
+    "race": "United States Grand Prix",
+    "time": "19:00",
+    "track": ""
+  },
+  {
+    "circuit": "Autódromo Hermanos Rodríguez",
+    "country": "Mexico",
+    "date": "31/10/26",
+    "race": "Mexico City Grand Prix - Qualifying",
+    "time": "21:00",
+    "track": ""
+  },
+  {
+    "circuit": "Autódromo Hermanos Rodríguez",
+    "country": "Mexico",
+    "date": "01/11/26",
+    "race": "Mexico City Grand Prix",
+    "time": "20:00",
+    "track": ""
+  },
+  {
+    "circuit": "Autódromo José Carlos Pace",
+    "country": "Brazil",
+    "date": "07/11/26",
+    "race": "São Paulo Grand Prix - Qualifying",
+    "time": "18:00",
+    "track": ""
+  },
+  {
+    "circuit": "Autódromo José Carlos Pace",
+    "country": "Brazil",
+    "date": "08/11/26",
+    "race": "São Paulo Grand Prix",
+    "time": "17:00",
+    "track": ""
+  },
+  {
+    "circuit": "Las Vegas Street Circuit",
+    "country": "USA",
+    "date": "20/11/26",
+    "race": "Las Vegas Grand Prix - Qualifying",
+    "time": "06:00",
+    "track": ""
+  },
+  {
+    "circuit": "Las Vegas Street Circuit",
+    "country": "USA",
+    "date": "21/11/26",
+    "race": "Las Vegas Grand Prix",
+    "time": "06:00",
+    "track": ""
+  },
+  {
+    "circuit": "Lusail International Circuit",
+    "country": "Qatar",
+    "date": "28/11/26",
+    "race": "Qatar Grand Prix - Qualifying",
+    "time": "16:00",
+    "track": ""
+  },
+  {
+    "circuit": "Lusail International Circuit",
+    "country": "Qatar",
+    "date": "29/11/26",
+    "race": "Qatar Grand Prix",
+    "time": "16:00",
+    "track": ""
+  },
+  {
+    "circuit": "Yas Marina Circuit",
+    "country": "Abu Dhabi",
+    "date": "05/12/26",
+    "race": "Abu Dhabi Grand Prix - Qualifying",
+    "time": "14:00",
+    "track": ""
+  },
+  {
+    "circuit": "Yas Marina Circuit",
+    "country": "Abu Dhabi",
+    "date": "06/12/26",
+    "race": "Abu Dhabi Grand Prix",
+    "time": "13:00",
+    "track": ""
+  }
+]

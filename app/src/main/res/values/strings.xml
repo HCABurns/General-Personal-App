@@ -33,7 +33,8 @@
     <!-- Preference Titles -->
     <string name="team_header">Team Selector</string>
     <string name="team_title">Default Team</string>
-    <string name="default_team">Arsenal</string>
+    <string name="default_team">arsenal</string>
+
 
     <!-- Future Games Screen -->
 
